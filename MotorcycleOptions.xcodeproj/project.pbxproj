@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A154D117202B9C4E005E2301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A154D116202B9C4E005E2301 /* AppDelegate.swift */; };
+		A154D119202B9C4E005E2301 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A154D118202B9C4E005E2301 /* ViewController.swift */; };
+		A154D11C202B9C4E005E2301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A154D11A202B9C4E005E2301 /* Main.storyboard */; };
+		A154D11E202B9C4E005E2301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A154D11D202B9C4E005E2301 /* Assets.xcassets */; };
+		A154D121202B9C4E005E2301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A154D11F202B9C4E005E2301 /* LaunchScreen.storyboard */; };
+		A154D12C202B9C4E005E2301 /* MotorcycleOptionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A154D12B202B9C4E005E2301 /* MotorcycleOptionsTests.swift */; };
+		A154D137202B9C4E005E2301 /* MotorcycleOptionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A154D136202B9C4E005E2301 /* MotorcycleOptionsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A154D128202B9C4E005E2301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A154D10B202B9C4E005E2301 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A154D112202B9C4E005E2301;
+			remoteInfo = MotorcycleOptions;
+		};
+		A154D133202B9C4E005E2301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A154D10B202B9C4E005E2301 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A154D112202B9C4E005E2301;
+			remoteInfo = MotorcycleOptions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A154D113202B9C4E005E2301 /* MotorcycleOptions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotorcycleOptions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A154D116202B9C4E005E2301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A154D118202B9C4E005E2301 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A154D11B202B9C4E005E2301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A154D11D202B9C4E005E2301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A154D120202B9C4E005E2301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A154D122202B9C4E005E2301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A154D127202B9C4E005E2301 /* MotorcycleOptionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotorcycleOptionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A154D12B202B9C4E005E2301 /* MotorcycleOptionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcycleOptionsTests.swift; sourceTree = "<group>"; };
+		A154D12D202B9C4E005E2301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A154D132202B9C4E005E2301 /* MotorcycleOptionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotorcycleOptionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A154D136202B9C4E005E2301 /* MotorcycleOptionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorcycleOptionsUITests.swift; sourceTree = "<group>"; };
+		A154D138202B9C4E005E2301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A154D110202B9C4E005E2301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A154D124202B9C4E005E2301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A154D12F202B9C4E005E2301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A154D10A202B9C4E005E2301 = {
+			isa = PBXGroup;
+			children = (
+				A154D115202B9C4E005E2301 /* MotorcycleOptions */,
+				A154D12A202B9C4E005E2301 /* MotorcycleOptionsTests */,
+				A154D135202B9C4E005E2301 /* MotorcycleOptionsUITests */,
+				A154D114202B9C4E005E2301 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A154D114202B9C4E005E2301 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A154D113202B9C4E005E2301 /* MotorcycleOptions.app */,
+				A154D127202B9C4E005E2301 /* MotorcycleOptionsTests.xctest */,
+				A154D132202B9C4E005E2301 /* MotorcycleOptionsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A154D115202B9C4E005E2301 /* MotorcycleOptions */ = {
+			isa = PBXGroup;
+			children = (
+				A154D116202B9C4E005E2301 /* AppDelegate.swift */,
+				A154D118202B9C4E005E2301 /* ViewController.swift */,
+				A154D11A202B9C4E005E2301 /* Main.storyboard */,
+				A154D11D202B9C4E005E2301 /* Assets.xcassets */,
+				A154D11F202B9C4E005E2301 /* LaunchScreen.storyboard */,
+				A154D122202B9C4E005E2301 /* Info.plist */,
+			);
+			path = MotorcycleOptions;
+			sourceTree = "<group>";
+		};
+		A154D12A202B9C4E005E2301 /* MotorcycleOptionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A154D12B202B9C4E005E2301 /* MotorcycleOptionsTests.swift */,
+				A154D12D202B9C4E005E2301 /* Info.plist */,
+			);
+			path = MotorcycleOptionsTests;
+			sourceTree = "<group>";
+		};
+		A154D135202B9C4E005E2301 /* MotorcycleOptionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A154D136202B9C4E005E2301 /* MotorcycleOptionsUITests.swift */,
+				A154D138202B9C4E005E2301 /* Info.plist */,
+			);
+			path = MotorcycleOptionsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A154D112202B9C4E005E2301 /* MotorcycleOptions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A154D13B202B9C4E005E2301 /* Build configuration list for PBXNativeTarget "MotorcycleOptions" */;
+			buildPhases = (
+				A154D10F202B9C4E005E2301 /* Sources */,
+				A154D110202B9C4E005E2301 /* Frameworks */,
+				A154D111202B9C4E005E2301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotorcycleOptions;
+			productName = MotorcycleOptions;
+			productReference = A154D113202B9C4E005E2301 /* MotorcycleOptions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A154D126202B9C4E005E2301 /* MotorcycleOptionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A154D13E202B9C4E005E2301 /* Build configuration list for PBXNativeTarget "MotorcycleOptionsTests" */;
+			buildPhases = (
+				A154D123202B9C4E005E2301 /* Sources */,
+				A154D124202B9C4E005E2301 /* Frameworks */,
+				A154D125202B9C4E005E2301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A154D129202B9C4E005E2301 /* PBXTargetDependency */,
+			);
+			name = MotorcycleOptionsTests;
+			productName = MotorcycleOptionsTests;
+			productReference = A154D127202B9C4E005E2301 /* MotorcycleOptionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A154D131202B9C4E005E2301 /* MotorcycleOptionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A154D141202B9C4E005E2301 /* Build configuration list for PBXNativeTarget "MotorcycleOptionsUITests" */;
+			buildPhases = (
+				A154D12E202B9C4E005E2301 /* Sources */,
+				A154D12F202B9C4E005E2301 /* Frameworks */,
+				A154D130202B9C4E005E2301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A154D134202B9C4E005E2301 /* PBXTargetDependency */,
+			);
+			name = MotorcycleOptionsUITests;
+			productName = MotorcycleOptionsUITests;
+			productReference = A154D132202B9C4E005E2301 /* MotorcycleOptionsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A154D10B202B9C4E005E2301 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Emily Rainer";
+				TargetAttributes = {
+					A154D112202B9C4E005E2301 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A154D126202B9C4E005E2301 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A154D112202B9C4E005E2301;
+					};
+					A154D131202B9C4E005E2301 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A154D112202B9C4E005E2301;
+					};
+				};
+			};
+			buildConfigurationList = A154D10E202B9C4E005E2301 /* Build configuration list for PBXProject "MotorcycleOptions" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A154D10A202B9C4E005E2301;
+			productRefGroup = A154D114202B9C4E005E2301 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A154D112202B9C4E005E2301 /* MotorcycleOptions */,
+				A154D126202B9C4E005E2301 /* MotorcycleOptionsTests */,
+				A154D131202B9C4E005E2301 /* MotorcycleOptionsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A154D111202B9C4E005E2301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A154D121202B9C4E005E2301 /* LaunchScreen.storyboard in Resources */,
+				A154D11E202B9C4E005E2301 /* Assets.xcassets in Resources */,
+				A154D11C202B9C4E005E2301 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A154D125202B9C4E005E2301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A154D130202B9C4E005E2301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A154D10F202B9C4E005E2301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A154D119202B9C4E005E2301 /* ViewController.swift in Sources */,
+				A154D117202B9C4E005E2301 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A154D123202B9C4E005E2301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A154D12C202B9C4E005E2301 /* MotorcycleOptionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A154D12E202B9C4E005E2301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A154D137202B9C4E005E2301 /* MotorcycleOptionsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A154D129202B9C4E005E2301 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A154D112202B9C4E005E2301 /* MotorcycleOptions */;
+			targetProxy = A154D128202B9C4E005E2301 /* PBXContainerItemProxy */;
+		};
+		A154D134202B9C4E005E2301 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A154D112202B9C4E005E2301 /* MotorcycleOptions */;
+			targetProxy = A154D133202B9C4E005E2301 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A154D11A202B9C4E005E2301 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A154D11B202B9C4E005E2301 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A154D11F202B9C4E005E2301 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A154D120202B9C4E005E2301 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A154D139202B9C4E005E2301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A154D13A202B9C4E005E2301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A154D13C202B9C4E005E2301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MotorcycleOptions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erainer.MotorcycleOptions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A154D13D202B9C4E005E2301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MotorcycleOptions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erainer.MotorcycleOptions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A154D13F202B9C4E005E2301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MotorcycleOptionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erainer.MotorcycleOptionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotorcycleOptions.app/MotorcycleOptions";
+			};
+			name = Debug;
+		};
+		A154D140202B9C4E005E2301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MotorcycleOptionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erainer.MotorcycleOptionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotorcycleOptions.app/MotorcycleOptions";
+			};
+			name = Release;
+		};
+		A154D142202B9C4E005E2301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MotorcycleOptionsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erainer.MotorcycleOptionsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MotorcycleOptions;
+			};
+			name = Debug;
+		};
+		A154D143202B9C4E005E2301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MotorcycleOptionsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erainer.MotorcycleOptionsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MotorcycleOptions;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A154D10E202B9C4E005E2301 /* Build configuration list for PBXProject "MotorcycleOptions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A154D139202B9C4E005E2301 /* Debug */,
+				A154D13A202B9C4E005E2301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A154D13B202B9C4E005E2301 /* Build configuration list for PBXNativeTarget "MotorcycleOptions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A154D13C202B9C4E005E2301 /* Debug */,
+				A154D13D202B9C4E005E2301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A154D13E202B9C4E005E2301 /* Build configuration list for PBXNativeTarget "MotorcycleOptionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A154D13F202B9C4E005E2301 /* Debug */,
+				A154D140202B9C4E005E2301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A154D141202B9C4E005E2301 /* Build configuration list for PBXNativeTarget "MotorcycleOptionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A154D142202B9C4E005E2301 /* Debug */,
+				A154D143202B9C4E005E2301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A154D10B202B9C4E005E2301 /* Project object */;
+}
